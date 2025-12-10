@@ -11,7 +11,7 @@ QUOTA UNLIMITED ON users
 
 TEMPORARY TABLESPACE temp → sort/temporary কাজের জন্য temp tablespace ব্যবহার হবে।
 
-QUOTA UNLIMITED → এই ইউজার unlimited space ব্যবহার করতে পারবে ওই tablespace‑এ।
+/*QUOTA UNLIMITED → এই ইউজার unlimited space ব্যবহার করতে পারবে ওই tablespace‑এ।
 
 cre_by
 
@@ -33,7 +33,7 @@ upd_dt
 cre_by/cre_dt = রেকর্ড তৈরি সম্পর্কিত তথ্য
 upd_by/upd_dt = রেকর্ড আপডেট সম্পর্কিত তথ্য}}}}
 
-**
+**/
 GRANT CONNECT, RESOURCE TO marzan;
 GRANT DBA TO marzan;
 
